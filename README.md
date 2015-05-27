@@ -1,9 +1,9 @@
 # Exordium
-Static website generator using indieweb microformats.
+Static website generator using [indieweb](http://indiewebcamp.com/) [microformats](http://microformats.org/).
 
 I will start by extracting the common elements from [andrewsullivancant.ca](http://andrewsullivancant.ca/) and [kwruby.ca](http://kwruby.ca/).
 
-Integreate with existing projects as much as possible:
+Integrate with existing projects as much as possible:
 * [Middleman](http://middlemanapp.com)
 * [webmention.io](https://github.com/aaronpk/webmention.io)
 * [webmention client](https://github.com/indieweb/mention-client-ruby)
