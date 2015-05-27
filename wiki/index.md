@@ -2,13 +2,13 @@ Project Name Ideas
 ==================
 
 Finally choose
-[exoridum](https://en.wikipedia.org/wiki/Exordium_(rhetoric))(the introduction
+[exoridum](https://en.wikipedia.org/wiki/Exordium_(rhetoric)) (the introduction
 of an oration in classical Western rhetoric) for a few reasons:
 
 * a personal or group website site is kind of an introduction
 * I think it sounds cools
 * is a reference to a [time travelling
-  communication](https://en.wikipedia.org/wiki/Technology_in_Revelation_Space#Exordium) method in [Alastair Reynolds](http://www.alastairreynolds.com/) [Revelation Space](https://en.wikipedia.org/wiki/Revelation_Space_universe) novels because I am a giant nerd
+  communication method](https://en.wikipedia.org/wiki/Technology_in_Revelation_Space#Exordium) in [Alastair Reynolds](http://www.alastairreynolds.com/) [Revelation Space](https://en.wikipedia.org/wiki/Revelation_Space_universe) novels, because I am a giant nerd
 
 Other Notes and Names
 ---------------------
@@ -29,11 +29,13 @@ Other Notes and Names
   - public
     * forensis
     * publicus
-* https://en.wikipedia.org/wiki/List_of_Latin_phrases_(full)
-  | Phrase        | Meaning               | Notes |
-  | ------------- | --------------------- | ----- |
-  | coram publico | in view of the public | |
-  | intra muros   | within the walls      | Not public; source of the word intramural. See also Intramuros, Manila. |
-  | obliti privatorum, publica curate | Forget private affairs, take care of public ones | Roman political saying which reminds that common good should be given priority over private matters for any person having a responsibility in the State |
-  | pro bono publico | for the public good | Often abbreviated pro bono. Work undertaken voluntarily at no expense, such as public services. Often used of a lawyer's work that is not charged for.|
-  | res publica | Pertaining to the state or public | source of the word republic |
+
+Some [latin phrases](https://en.wikipedia.org/wiki/List_of_Latin_phrases_(full)):
+
+| Phrase        | Meaning               | Notes |
+| ------------- | --------------------- | ----- |
+| coram publico | in view of the public | |
+| intra muros   | within the walls      | Not public; source of the word intramural. See also Intramuros, Manila. |
+| obliti privatorum, publica curate | Forget private affairs, take care of public ones | Roman political saying which reminds that common good should be given priority over private matters for any person having a responsibility in the State |
+| pro bono publico | for the public good | Often abbreviated pro bono. Work undertaken voluntarily at no expense, such as public services. Often used of a lawyer's work that is not charged for.|
+| res publica | Pertaining to the state or public | source of the word republic |
