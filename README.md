@@ -19,6 +19,18 @@ Integreate with existing projects as much as possible:
   - http://blog.nategood.com/client-side-certificate-authentication-in-ngi
 * microformat standard for git repository
   - consider flag to indicate intended usage (e.g., for use, clone only, deprecated)
+* create helpers for setting site license (CC, PD, all reserved)
+* create a consistent identity structure
+  - integrate with namecoin
+  - handle multiple and deprecated email addresses
+  - libavatar/gravatar integrations
+  - gpg key publishing
+  - disambugation pages
+  - xfn related things
+* implement [POSSE](https://indiewebcamp.com/POSSE) to various other services
+  - twitter, meetup, linkedin
+  - [image sizes on various services](http://www.entrepreneur.com/article/225761)
 
 # License
 Copyright 2015 Andrew Sullivan Cant. Licensed GPLv3, see [LICENSE] for details.
+
