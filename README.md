@@ -30,6 +30,9 @@ Integrate with existing projects as much as possible:
 * implement [POSSE](https://indiewebcamp.com/POSSE) to various other services
   - twitter, meetup, linkedin
   - [image sizes on various services](http://www.entrepreneur.com/article/225761)
+* get push notifications working
+  - [PubSubHubbub](http://indiewebcamp.com/PubSubHubbub)
+  - other formats to use?
 
 # License
 Copyright 2015 Andrew Sullivan Cant. Licensed GPLv3, see [LICENSE] for details.

@@ -39,3 +39,24 @@ Some [latin phrases](https://en.wikipedia.org/wiki/List_of_Latin_phrases_(full))
 | obliti privatorum, publica curate | Forget private affairs, take care of public ones | Roman political saying which reminds that common good should be given priority over private matters for any person having a responsibility in the State |
 | pro bono publico | for the public good | Often abbreviated pro bono. Work undertaken voluntarily at no expense, such as public services. Often used of a lawyer's work that is not charged for.|
 | res publica | Pertaining to the state or public | source of the word republic |
+
+
+Research
+========
+
+Static Website Generators
+-------------------------
+
+Articles about static site generation:
+* [Poll: What's your favorite static site generator? | Hacker News](https://news.ycombinator.com/item?id=4857473)
+
+Other projects:
+* [ikiwiki](http://ikiwiki.info/)
+* [Jekyll](http://jekyllrb.com/)
+* [Statamic](http://statamic.com/)
+
+Other Personal Site Designs and Ideas
+-------------------------------------
+* [Gyroscope](https://gyrosco.pe/)
+* [Known](https://withknown.com/)
+* [DodgerCMS](https://github.com/ChrisZieba/dodgercms)
