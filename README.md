@@ -1,5 +1,5 @@
 # Exordium
-Static website generator using [indieweb](http://indiewebcamp.com/) [microformats](http://microformats.org/).
+the goal of this project is to provide a static website generator published using [indieweb](http://indiewebcamp.com/) [microformats](http://microformats.org/), suitable for both a personal site or a [special interest group](https://en.wikipedia.org/wiki/Special_Interest_Group). 
 
 I will start by extracting the common elements from [andrewsullivancant.ca](http://andrewsullivancant.ca/) and [kwruby.ca](http://kwruby.ca/).
 
