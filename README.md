@@ -35,5 +35,5 @@ Integrate with existing projects as much as possible:
   - other formats to use?
 
 # License
-Copyright 2015 Andrew Sullivan Cant. Licensed GPLv3, see [LICENSE] for details.
+Copyright 2015 [Andrew Sullivan Cant](http://andrewsullivancant.ca/). Licensed [GPLv3](https://www.gnu.org/licenses/gpl.html), see [LICENSE](LICENSE) for details.
 
