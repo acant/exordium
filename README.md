@@ -10,6 +10,12 @@ Integrate with existing projects as much as possible:
 * [pluto](https://github.com/feedreader/pluto)
 
 # Ideas
+* create a URL design
+  - need to come up with a good design that can get the various indieweb types
+  - https://indiewebcamp.com/URL_design
+  - http://manas.tungare.name/blog/url-design-sins-16-things-that-dont-belong-in-urls/
+  - https://github.com/Octo-Labs/middleman-alias
+  - http://tantek.com/w/Whistle
 * static file encryption with GPG
   - http://git-annex.branchable.com/encryption/
   - http://git-annex.branchable.com/design/encryption/
