@@ -40,6 +40,17 @@ Integrate with existing projects as much as possible:
   - [PubSubHubbub](http://indiewebcamp.com/PubSubHubbub)
   - other formats to use?
 
+#Inspiration
+This to review for ideas:
+* https://github.com/crtvhd/middleboy
+* https://github.com/gregory/middleman-settings
+* [Locking the Web Open: A Call for a Distributed Web](http://brewster.kahle.org/2015/08/11/locking-the-web-open-a-call-for-a-distributed-web-2/)
+  - javascript (e.g., [client side search engine](https://github.com/cebe/js-search))
+  - bitcoin
+  - IPFS/bittorrent
+  - Namecoin
+  - public/private keys
+
 # License
 Copyright 2015 Andrew Sullivan Cant. Licensed GPLv3, see [LICENSE] for details.
 
