@@ -1,5 +1,5 @@
 # Exordium
-Static website generator using [indieweb](http://indiewebcamp.com/) [microformats](http://microformats.org/).
+The goal of this project is to provide a static website generator published using [indieweb](http://indiewebcamp.com/) [microformats](http://microformats.org/), suitable for both a personal site or a [special interest group](https://en.wikipedia.org/wiki/Special_Interest_Group). 
 
 I will start by extracting the common elements from [andrewsullivancant.ca](http://andrewsullivancant.ca/) and [kwruby.ca](http://kwruby.ca/).
 
@@ -62,5 +62,5 @@ This to review for ideas:
   - public/private keys
 
 # License
-Copyright 2015 Andrew Sullivan Cant. Licensed GPLv3, see [LICENSE] for details.
+Copyright 2015 [Andrew Sullivan Cant](http://andrewsullivancant.ca/). Licensed [GPLv3](https://www.gnu.org/licenses/gpl.html), see [LICENSE](LICENSE) for details.
 
