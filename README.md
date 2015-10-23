@@ -21,8 +21,14 @@ Integrate with existing projects as much as possible:
   - http://git-annex.branchable.com/design/encryption/
   - http://obnam.org/encryption/
   - https://github.com/ahoward/middleman-gibberish
-* authenticate publicly accessible command services with client certificates
-  - http://blog.nategood.com/client-side-certificate-authentication-in-ngi
+* separate command/control services from static publishing service
+	- authenticate publicly accessible command services with client certificates
+		* http://blog.nategood.com/client-side-certificate-authentication-in-ngi
+	- consider including a micropub interface
+	- consider too to help with content creation
+		* automated spelling, grammar, proofreading, reading quality
+		* meta data suggestions (e.g.,
+		  [HashRobot](https://blog.monkeylearn.com/hashrobot-a-social-media-assistant-built-with-monkeylearn/)
 * microformat standard for git repository
   - consider flag to indicate intended usage (e.g., for use, clone only, deprecated)
 * create helpers for setting site license (CC, PD, all reserved)
@@ -39,6 +45,10 @@ Integrate with existing projects as much as possible:
 * get push notifications working
   - [PubSubHubbub](http://indiewebcamp.com/PubSubHubbub)
   - other formats to use?
+* easy SSL with [lets encrypted](https://helloworld.letsencrypt.org/)
+* adding an easy option for deploying to multiple sites:
+  - internet archive
+  - P2P networks (e.g., [IPFS](http://ipfs.io/))
 
 #Inspiration
 This to review for ideas:

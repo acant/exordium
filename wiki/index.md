@@ -60,3 +60,13 @@ Other Personal Site Designs and Ideas
 * [Gyroscope](https://gyrosco.pe/)
 * [Known](https://withknown.com/)
 * [DodgerCMS](https://github.com/ChrisZieba/dodgercms)
+
+GPG Key management
+------------------
+* [privacy - Where do you store your personal private GPG key? - Information Security Stack Exchange](http://security.stackexchange.com/questions/51771/where-do-you-store-your-personal-private-gpg-key)
+* [Creating the perfect GPG keypair - Alex Cabal](https://alexcabal.com/creating-the-perfect-gpg-keypair/)
+* [pass - GPG Key Roll / Remove key and re-encrypt tree](http://lists.zx2c4.com/pipermail/password-store/2015-February/001372.html)
+* [pass - Support multiple git repositories](http://lists.zx2c4.com/pipermail/password-store/2015-April/001454.html)
+* [pass - Preferred way of migrating pass from one GPG key to another](http://lists.zx2c4.com/pipermail/password-store/2015-May/001547.html)
+* [GPG keys for multiple email accounts | GnuPG | users](http://www.gossamer-threads.com/lists/gnupg/users/61855)
+* [pass - Multiple password-stores](http://lists.zx2c4.com/pipermail/password-store/2015-October/001770.html)
