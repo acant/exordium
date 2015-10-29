@@ -9,13 +9,51 @@ Integrate with existing projects as much as possible:
 * [webmention client](https://github.com/indieweb/mention-client-ruby)
 * [pluto](https://github.com/feedreader/pluto)
 
+# URL Design
+This is a map of possible URLs for an exordium website, and so might change over time. URLs may or may not get implemented as time permits.
+```
+/posts/
+  /[yyyy]
+    /[mm]
+      /[dd]
+       /article/[title]
+       /notes/[count for day]
+       /reply
+       /photo
+       /rsvp
+       /event
+       /commit
+       /pull_request
+/wiki
+  /[article name]
+    /changes
+/tag
+  /[tag name]
+/git
+  /[repo_name]
+    /log
+    /tags
+    /branches
+      /[branch_name]
+    /[file path]
+      /[oid]
+/identity
+  /disambugation
+  /avatar
+  /gpg
+  /resume
+    is cirriculum_vitae at better name for this?
+      probably because it is not as common as usage
+    allow various formats of resume (pdf, word, opendoc)
+```
+
+## Research
+* https://indiewebcamp.com/URL_design
+* http://manas.tungare.name/log/url-design-sins-16-things-that-dont-belong-in-urls/
+* https://github.com/Octo-Labs/middleman-alias
+* http://tantek.com/w/Whistle
+
 # Ideas
-* create a URL design
-  - need to come up with a good design that can get the various indieweb types
-  - https://indiewebcamp.com/URL_design
-  - http://manas.tungare.name/blog/url-design-sins-16-things-that-dont-belong-in-urls/
-  - https://github.com/Octo-Labs/middleman-alias
-  - http://tantek.com/w/Whistle
 * static file encryption with GPG
   - http://git-annex.branchable.com/encryption/
   - http://git-annex.branchable.com/design/encryption/
