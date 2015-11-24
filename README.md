@@ -69,6 +69,15 @@ This is a map of possible URLs for an exordium website, and so might change over
 		  [HashRobot](https://blog.monkeylearn.com/hashrobot-a-social-media-assistant-built-with-monkeylearn/)
 * microformat standard for git repository
   - consider flag to indicate intended usage (e.g., for use, clone only, deprecated)
+  - want to integrate web comments on all parts of the repo
+    * e.g., commits, lines, PRs
+  - would like to integrate display of related wiki and issues
+  - also include an intent flag
+    * prototype
+    * clone
+    * deprecated
+    * for_use
+    * what else?
 * create helpers for setting site license (CC, PD, all reserved)
 * create a consistent identity structure
   - integrate with namecoin
@@ -87,6 +96,7 @@ This is a map of possible URLs for an exordium website, and so might change over
 * adding an easy option for deploying to multiple sites:
   - internet archive
   - P2P networks (e.g., [IPFS](http://ipfs.io/))
+* write a plugin for doing draft blog management in branches
 
 #Inspiration
 This to review for ideas:
