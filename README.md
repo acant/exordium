@@ -53,6 +53,7 @@ This is a map of possible URLs for an exordium website, and so might change over
 * http://manas.tungare.name/log/url-design-sins-16-things-that-dont-belong-in-urls/
 * https://github.com/Octo-Labs/middleman-alias
 * http://tantek.com/w/Whistle
+* https://github.com/homesteading
 
 ### Git repository displays
 * [GitHub](http://github.com)
