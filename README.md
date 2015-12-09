@@ -38,6 +38,7 @@ This is a map of possible URLs for an exordium website, and so might change over
     /[file path]
       /[oid]
 /identity
+  # is there any value in putting the identity into is own resource?
   /disambugation
   /avatar
   /gpg
@@ -53,20 +54,29 @@ This is a map of possible URLs for an exordium website, and so might change over
 * https://github.com/Octo-Labs/middleman-alias
 * http://tantek.com/w/Whistle
 
+### Git repository displays
+* [GitHub](http://github.com)
+* [Gitlab](http://gitlab.com)
+* [cgit](http://git.zx2c4.com/cgit/)
+* [sourcegraph](https://src.sourcegraph.com/sourcegraph)
+
 # Ideas
+* gpg publishing
+  - looks like it can work with [indieauth](https://indieauth.com/gpg)
+  - http://indiewebcamp.com/pgp
 * static file encryption with GPG
   - http://git-annex.branchable.com/encryption/
   - http://git-annex.branchable.com/design/encryption/
   - http://obnam.org/encryption/
   - https://github.com/ahoward/middleman-gibberish
 * separate command/control services from static publishing service
-	- authenticate publicly accessible command services with client certificates
-		* http://blog.nategood.com/client-side-certificate-authentication-in-ngi
-	- consider including a micropub interface
-	- consider too to help with content creation
-		* automated spelling, grammar, proofreading, reading quality
-		* meta data suggestions (e.g.,
-		  [HashRobot](https://blog.monkeylearn.com/hashrobot-a-social-media-assistant-built-with-monkeylearn/)
+  - authenticate publicly accessible command services with client certificates
+    * http://blog.nategood.com/client-side-certificate-authentication-in-ngi
+  - consider including a micropub interface
+  - consider too to help with content creation
+    * automated spelling, grammar, proofreading, reading quality
+    * meta data suggestions (e.g.,
+      [HashRobot](https://blog.monkeylearn.com/hashrobot-a-social-media-assistant-built-with-monkeylearn/)
 * microformat standard for git repository
   - consider flag to indicate intended usage (e.g., for use, clone only, deprecated)
   - want to integrate web comments on all parts of the repo
@@ -94,9 +104,15 @@ This is a map of possible URLs for an exordium website, and so might change over
   - other formats to use?
 * easy SSL with [lets encrypted](https://helloworld.letsencrypt.org/)
 * adding an easy option for deploying to multiple sites:
-  - internet archive
+  - [internet archive](https://archive.org/) Wayback Machine
+
   - P2P networks (e.g., [IPFS](http://ipfs.io/))
 * write a plugin for doing draft blog management in branches
+* add link checking and wayback machine support for content and links
+  - check links regularly
+  - link to the wayback machine in content if the original page disappears
+  - can I send pages I link to to the wayback machine?
+    * yes http://lifehacker.com/manually-archive-web-pages-by-submitting-them-to-the-wa-1580713309
 
 #Inspiration
 This to review for ideas:
