@@ -70,3 +70,18 @@ GPG Key management
 * [pass - Preferred way of migrating pass from one GPG key to another](http://lists.zx2c4.com/pipermail/password-store/2015-May/001547.html)
 * [GPG keys for multiple email accounts | GnuPG | users](http://www.gossamer-threads.com/lists/gnupg/users/61855)
 * [pass - Multiple password-stores](http://lists.zx2c4.com/pipermail/password-store/2015-October/001770.html)
+
+Performance
+-----------
+* http://danluu.com/octopress-speedup/
+* http://matthiasnehlsen.com/blog/2014/09/08/weekly-update/
+
+Middleman Configuration Examples
+--------------------------------
+* [Middleman config](https://gist.github.com/devynspencer/37de96d82f9e297141fc)
+* [Three Middleman Hacks We’re Using On This Site](https://www.discovermeteor.com/blog/three-middleman-hacks-were-using-on-this-site/)
+* [Hacking up sites with Middleman](http://darrennewton.com/2012/09/16/hacking-up-sites-with-middleman/)
+
+Middleman Extensions
+--------------------
+* [Building Middleman Extensions](http://willschenk.com/building-middleman-extensions/)
