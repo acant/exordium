@@ -14,6 +14,12 @@ Integrate with existing projects as much as possible:
 # URL Design
 This is a map of possible URLs for an exordium website, and so might change over time. URLs may or may not get implemented as time permits.
 ```
+/
+  # figure out a common structure for hompeage based upon
+  # https://indieweb.org/homepage
+  #   * include vcard with optional additional details
+  #   * optional stream with configuration
+  #   * think about what other stuff to include
 /[yyyy]
   /[mm]
     /[dd]
@@ -24,8 +30,18 @@ This is a map of possible URLs for an exordium website, and so might change over
       /rsvp
       /event
       /commit
-      /pull_request
+      /request
       /read
+      /pull_request
+      /request
+        # entry in an issue tracker or ticketing system
+        # No sure if issue and pull_request should be seperate.
+        # https://indieweb.org/issue_tracker
+/articles
+/events
+/request
+/posts/
+  # This could contain all posts
 /wiki
   /[article name]
     /changes
@@ -39,8 +55,13 @@ This is a map of possible URLs for an exordium website, and so might change over
       /[branch_name]
     /[file path]
       /[oid]
+/posts
+  # feed of all posts
+/[each post type]
+  # each is a collection for seeing just that post type
+  # 
 /photo
-  # possible endpoints for providing things like galleries and collectios of
+  # possible endpoints for providing things like galleries and collections of
   # photos
 /about
   # Is there any value in putting the identity into is own resource?
@@ -49,6 +70,7 @@ This is a map of possible URLs for an exordium website, and so might change over
   # I do n0t totally like 'about', but it is so commonly used that it makes
   # sense to continue using it. (alternative names: identity, me, id)
   /disambugation
+    # Should this be a seperate page, or just in the about page.
   /avatar
     # display the list of available avatars
     /current
@@ -56,7 +78,7 @@ This is a map of possible URLs for an exordium website, and so might change over
       # default to 80x80
       /[size]
     /[email_hash]
-      # providier either re-directs or copies to the images
+      # provider either re-directs or copies to the images
       # default to 80x80 again
   /gpg
   /resume
@@ -64,6 +86,10 @@ This is a map of possible URLs for an exordium website, and so might change over
       probably because it is not as common as usage
     allow various formats of resume (pdf, word, opendoc)
 ```
+
+## Questions?
+* where should subscrition links go?
+  - RSS feed + indieweb idea of a link which is readable and subscribe-able
 
 ## Research
 * https://indiewebcamp.com/URL_design
@@ -79,10 +105,14 @@ This is a map of possible URLs for an exordium website, and so might change over
 * [GitHub](http://github.com)
 * [Gitlab](http://gitlab.com)
 * [cgit](http://git.zx2c4.com/cgit/)
+* [stagit](http://git.2f30.org/stagit/)
 * [sourcegraph](https://src.sourcegraph.com/sourcegraph)
 * indieweb has some note about this
   - http://indiewebcamp.com/issue_tracker
   - http://indiewebcamp.com/code
+* microformats to create
+  - hTicket
+  - hRepository
 
 # Ideas
 * https://github.com/statonjr/middleman-sitemap
@@ -103,17 +133,6 @@ This is a map of possible URLs for an exordium website, and so might change over
     * meta data suggestions (e.g.,
       [HashRobot](https://blog.monkeylearn.com/hashrobot-a-social-media-assistant-built-with-monkeylearn/)
   - https://github.com/yabwe/medium-editor
-* microformat standard for git repository
-  - consider flag to indicate intended usage (e.g., for use, clone only, deprecated)
-  - want to integrate web comments on all parts of the repo
-    * e.g., commits, lines, PRs
-  - would like to integrate display of related wiki and issues
-  - also include an intent flag
-    * prototype
-    * clone
-    * deprecated
-    * for_use
-    * what else?
 * create helpers for setting site license (CC, PD, all reserved)
 * create a consistent identity structure
   - integrate with namecoin
@@ -146,10 +165,10 @@ This is a map of possible URLs for an exordium website, and so might change over
     * this will avoid having to worry about how to store credentials on the
       network
     * investigate a secure way to do this in the future
+* investigate storing POSSE and webmention information in data-branches
 * get push notifications working
   - [PubSubHubbub](http://indiewebcamp.com/PubSubHubbub)
   - http://christopheducamp.com/w/PubSubHubbub?christopljw_session=mke14ssbovehvdo6tq94bpff44
-
   - other formats to use?
 * easy SSL with [lets encrypted](https://helloworld.letsencrypt.org/)
 * adding an easy option for deploying to various sites:
@@ -161,14 +180,66 @@ This is a map of possible URLs for an exordium website, and so might change over
   - rsync
   - ftp
   - [google amp](https://www.ampproject.org/)
+    * [Amplify for Jekyll](https://github.com/ageitgey/amplify)
   - [facebook instance articles](https://developers.facebook.com/docs/instant-articles)
   - [google shield](https://jigsaw.google.com/products/project-shield/)
+  - [Scuttlebut social network]
+* make it easy to add a [.onion](https://en.wikipedia.org/wiki/.onion) address
 * write a plugin for doing draft blog management in branches
 * add link checking and wayback machine support for content and links
   - check links regularly
   - link to the wayback machine in content if the original page disappears
   - can I send pages I link to to the wayback machine?
     * yes http://lifehacker.com/manually-archive-web-pages-by-submitting-them-to-the-wa-1580713309
+* add support for auto filling different kinds of links
+  - investigate if this would work in Markdown or now
+  - easy links to things like
+    * internal pages
+    * wikipedia
+    * github
+    * public contact/person information
+* publish contacts and membership with XFN and rel tags
+  - http://microformats.org/wiki/rel-group
+  - think about what level of privacy would be appropriate?
+    * who should be able to access what
+    * how to authenticate (indieauth with the related page, GPG encryption)
+* search
+  - use a client side javascript search
+  - http://manas.com.ar/blog/2015/10/22/middleman-search-client-side-search-in-your-middleman-site.html
+* allow code examples to be stored in separate files and inlined into articles
+  - this should make it easier to check and execute the code
+  - would this then need to include a gist like system?
+* look into integrating the mermaid diagraming tool
+* add support for including code snippets as separate files which are include
+  into articles
+* make it easy to do mentions in articles/wiki/etc
+  - https://seblog.nl/2017/06/14/6/at-mentioning-people
+
+## HTML5/Microformats
+
+* for git repository
+  - consider flag to indicate intended usage (e.g., for use, clone only, deprecated)
+  - want to integrate web comments on all parts of the repo
+    * e.g., commits, lines, PRs
+  - would like to integrate display of related wiki and issues
+  - also include an intent flag
+    * prototype
+    * clone
+    * deprecated
+    * for_use
+    * what else?
+* for projects
+  - want to be able to go all the way from idea to full running project
+  - embed list of links and tickets
+  - and then allow links out to the same later on
+  - this will be useful for 
+  - http://microformats.org/wiki/h-product
+  - http://microformats.org/wiki/project
+* use a HTML5 structure with main and related structure tags
+  - https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Using_HTML_sections_and_outlines
+
+## Wiki
+* add category support, like wikipedia
 
 #Inspiration
 This to review for ideas:
@@ -186,6 +257,8 @@ This to review for ideas:
   - gitlab
   - bitbucket
   - rubytoolbox
+* [Autotune](http://product.voxmedia.com/2015/7/8/8907841/introducing-autotune) Vox Media's middleman based CMS
+* [Ain't CMS](http://aint.io/)
 
 # License
 Copyright 2015 [Andrew Sullivan Cant](http://andrewsullivancant.ca/). Licensed [GPLv3](https://www.gnu.org/licenses/gpl.html), see [LICENSE](LICENSE) for details.

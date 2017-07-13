@@ -60,6 +60,7 @@ Other Personal Site Designs and Ideas
 * [Gyroscope](https://gyrosco.pe/)
 * [Known](https://withknown.com/)
 * [DodgerCMS](https://github.com/ChrisZieba/dodgercms)
+* [Cockpit](http://getcockpit.com/)
 
 GPG Key management
 ------------------
@@ -75,6 +76,12 @@ Performance
 -----------
 * http://danluu.com/octopress-speedup/
 * http://matthiasnehlsen.com/blog/2014/09/08/weekly-update/
+
+SEO
+---
+* https://ma.ttias.be/technical-guide-seo/
+* https://moz.com/beginners-guide-to-seo
+* https://www.shopify.com/retail/119917443-a-beginners-guide-to-local-seo-for-small-businesses
 
 Middleman Configuration Examples
 --------------------------------
