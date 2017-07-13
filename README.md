@@ -214,6 +214,13 @@ This is a map of possible URLs for an exordium website, and so might change over
   into articles
 * make it easy to do mentions in articles/wiki/etc
   - https://seblog.nl/2017/06/14/6/at-mentioning-people
+* things to [PESOS](https://indieweb.org/PESOS)
+  - [OpenStreetMap](https://www.openstreetmap.org/)
+  - [MusicBrainz](https://musicbrainz.org/)
+  - [Wikipedia](https://www.wikipedia.org/)
+* figure out how to publish events and session
+  - both allow events to be created, this could be [PESOS](https://indieweb.org/PESOS) from other places
+  - example https://aaronparecki.com/presentations
 
 ## HTML5/Microformats
 
