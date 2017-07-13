@@ -113,6 +113,9 @@ This is a map of possible URLs for an exordium website, and so might change over
 * microformats to create
   - hTicket
   - hRepository
+* [patch work](https://github.com/getpatchwork/patchwork)
+  - a git tool for managing mailing list patches on the web as well
+  - http://jk.ozlabs.org/projects/patchwork/
 
 # Ideas
 * https://github.com/statonjr/middleman-sitemap
