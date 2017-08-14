@@ -267,6 +267,7 @@ This to review for ideas:
   - gitlab
   - bitbucket
   - rubytoolbox
+  - article on this topic by [flameeyes](https://flameeyes.eu), [Project Memory](https://blog.flameeyes.eu/2017/04/project-memory/)
 * [Autotune](http://product.voxmedia.com/2015/7/8/8907841/introducing-autotune) Vox Media's middleman based CMS
 * [Ain't CMS](http://aint.io/)
 
