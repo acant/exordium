@@ -238,6 +238,7 @@ This is a map of possible URLs for an exordium website, and so might change over
     * deprecated
     * for_use
     * what else?
+  - generate arbitrary diffs in the browser using web worker + [git.js](https://github.com/creationix/js-git)
 * for projects
   - want to be able to go all the way from idea to full running project
   - embed list of links and tickets
