@@ -236,6 +236,9 @@ This is a map of possible URLs for an exordium website, and so might change over
 * figure out how to publish events and session
   - both allow events to be created, this could be [PESOS](https://indieweb.org/PESOS) from other places
   - example https://aaronparecki.com/presentations
+* include vcard list with exordium, for linking to others
+  - https://indieweb.org/nicknames-cache
+  - use ppl to manage it
 
 ## HTML5/Microformats
 
