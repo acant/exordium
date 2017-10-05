@@ -90,6 +90,9 @@ This is a map of possible URLs for an exordium website, and so might change over
 ## Questions?
 * where should subscrition links go?
   - RSS feed + indieweb idea of a link which is readable and subscribe-able
+* www vs no-www for the conical URL
+  - https://stackoverflow.com/questions/1109356/www-or-not-www-what-to-choose-as-primary-site-name
+  - http://www.yes-www.org/why-use-www/
 
 ## Research
 * https://indiewebcamp.com/URL_design
@@ -113,11 +116,20 @@ This is a map of possible URLs for an exordium website, and so might change over
 * microformats to create
   - hTicket
   - hRepository
+  - http://indieweb.org/git
+  - http://indieweb.org/code
+  - http://indieweb.org/issues
+  - http://indieweb.org/issue
 * [patch work](https://github.com/getpatchwork/patchwork)
   - a git tool for managing mailing list patches on the web as well
   - http://jk.ozlabs.org/projects/patchwork/
 
+
 # Ideas
+* every feed to posts should include 
+  - HTML5 indieweb microformat feed
+  - RSS
+  - iCal
 * https://github.com/statonjr/middleman-sitemap
 * gpg publishing
   - looks like it can work with [indieauth](https://indieauth.com/gpg)
@@ -246,6 +258,8 @@ This is a map of possible URLs for an exordium website, and so might change over
   - this will be useful for 
   - http://microformats.org/wiki/h-product
   - http://microformats.org/wiki/project
+  - https://github.com/ewilderj/doap/wiki
+  - http://microformats.org/wiki/project-formats
 * use a HTML5 structure with main and related structure tags
   - https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Using_HTML_sections_and_outlines
 
