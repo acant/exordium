@@ -134,6 +134,8 @@ This is a map of possible URLs for an exordium website, and so might change over
 * gpg publishing
   - looks like it can work with [indieauth](https://indieauth.com/gpg)
   - http://indiewebcamp.com/pgp
+  - [hawkpost.co](https://hawkpost.co/), a system for sending GPG encrypted
+    messages from people who do not have GPG setup, uses [OpenPGP.js](http://openpgpjs.org/)
 * static file encryption with GPG
   - http://git-annex.branchable.com/encryption/
   - http://git-annex.branchable.com/design/encryption/
