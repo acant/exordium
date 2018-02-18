@@ -82,6 +82,8 @@ SEO
 * https://ma.ttias.be/technical-guide-seo/
 * https://moz.com/beginners-guide-to-seo
 * https://www.shopify.com/retail/119917443-a-beginners-guide-to-local-seo-for-small-businesses
+* https://gethead.info/
+* https://pawelurbanek.com/2018/02/16/seo-tips-for-technical-bloggers-and-programming-blogs-in-2018/
 
 Middleman Configuration Examples
 --------------------------------

@@ -141,6 +141,7 @@ This is a map of possible URLs for an exordium website, and so might change over
   - http://git-annex.branchable.com/design/encryption/
   - http://obnam.org/encryption/
   - https://github.com/ahoward/middleman-gibberish
+  - can the webauthn API help with using GPG de-cryption in the browser?
 * separate command/control services from static publishing service
   - authenticate publicly accessible command services with client certificates
     * http://blog.nategood.com/client-side-certificate-authentication-in-ngi
@@ -238,9 +239,18 @@ This is a map of possible URLs for an exordium website, and so might change over
 * figure out how to publish events and session
   - both allow events to be created, this could be [PESOS](https://indieweb.org/PESOS) from other places
   - example https://aaronparecki.com/presentations
+  - and POSSE to other sites
+    * https://www.slideshare.net/
+    * https://slidr.io/aspleenic/rails-still
 * include vcard list with exordium, for linking to others
   - https://indieweb.org/nicknames-cache
   - use ppl to manage it
+* support posting and subscription over email
+  - how to make it easy
+    * have a paid which is the default
+    * and easy support for something self-hosted
+  - consider using gitlab CI
+  - allow posting by email, maybe something like matrix as well
 
 ## HTML5/Microformats
 
