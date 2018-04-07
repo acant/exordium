@@ -103,6 +103,7 @@ This is a map of possible URLs for an exordium website, and so might change over
 * https://github.com/homesteading
 * http://www.yes-www.org/
 * http://no-www.org/
+* https://aaronparecki.com/2018/03/12/17/building-an-indieweb-reader
 
 ### Git repository displays
 * [GitHub](http://github.com)
@@ -251,6 +252,11 @@ This is a map of possible URLs for an exordium website, and so might change over
     * and easy support for something self-hosted
   - consider using gitlab CI
   - allow posting by email, maybe something like matrix as well
+* pick a method for doing slides with works well with this
+  - https://github.com/geraldb/talks/blob/master/slideshow-s9.md
+* describe at least one method for CI/CD/automatic deploying
+  - GitlabCI
+  - https://github.com/alestic/aws-git-backed-static-website
 
 ## HTML5/Microformats
 
