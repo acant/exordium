@@ -184,6 +184,7 @@ This is a map of possible URLs for an exordium website, and so might change over
     * this will avoid having to worry about how to store credentials on the
       network
     * investigate a secure way to do this in the future
+  - [SNAP wordpress extensions](https://www.nextscripts.com/social-networks-auto-poster-for-wordpress/)
 * investigate storing POSSE and webmention information in data-branches
 * get push notifications working
   - [PubSubHubbub](http://indiewebcamp.com/PubSubHubbub)
