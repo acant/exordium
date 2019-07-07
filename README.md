@@ -104,6 +104,7 @@ This is a map of possible URLs for an exordium website, and so might change over
 * http://www.yes-www.org/
 * http://no-www.org/
 * https://aaronparecki.com/2018/03/12/17/building-an-indieweb-reader
+* https://vincentp.me/articles/2018/11/14/20-00/
 
 ### Git repository displays
 * [GitHub](http://github.com)
@@ -124,6 +125,8 @@ This is a map of possible URLs for an exordium website, and so might change over
 * [patch work](https://github.com/getpatchwork/patchwork)
   - a git tool for managing mailing list patches on the web as well
   - http://jk.ozlabs.org/projects/patchwork/
+* git-bug
+* git-appraise
 
 
 # Ideas
@@ -258,6 +261,34 @@ This is a map of possible URLs for an exordium website, and so might change over
 * describe at least one method for CI/CD/automatic deploying
   - GitlabCI
   - https://github.com/alestic/aws-git-backed-static-website
+* follow up on posting my own editings to OpenStreetMap
+  - https://indieweb.org/edit
+* work on bring icky style or bookmarking by URL
+  - https://indieweb.org/geo-wiki
+    * this describes a similar idea
+    * except the wiki is associated with URL/URNs instead of lat/long
+    * actually has similar issues of wanting to link to nested pages
+    * e.g.,
+      - a page for a less precise lat/log should link or embed a page for a more precise lat/log up and down
+      - a URL page should similary link to other URLs up and down
+    * /wiki/
+    * /uri/
+    * /geo/
+      - I think that I like this better it makes things more clear
+      - it is actually consistent with something like /photo/,  where a photo might get similary updated with information over time
+    * https://tools.ietf.org/html/rfc3986#section-1.1.2
+    * convert the icky formath to markdown + yaml annotations
+    * make it possible to then link to photos
+* add linting to the project and keep adding tools
+  - webpagetest.org
+  - lighthouse
+* figure out indiemark and then work through the levels
+  - https://indieweb.org/IndieMark
+* verify that HTML header information is fully populated
+  - https://gethead.info/
+* add ccRel link formatting to everything
+  - follow the W3C linking standard for it
+  - document using it in indieweb stuff
 
 ## HTML5/Microformats
 
@@ -307,6 +338,7 @@ This to review for ideas:
   - article on this topic by [flameeyes](https://flameeyes.eu), [Project Memory](https://blog.flameeyes.eu/2017/04/project-memory/)
 * [Autotune](http://product.voxmedia.com/2015/7/8/8907841/introducing-autotune) Vox Media's middleman based CMS
 * [Ain't CMS](http://aint.io/)
+* [The Future of Websites: Headless CMS](https://scotch.io/bar-talk/the-future-of-websites-headless-cmss)
 
 # License
 Copyright 2015 [Andrew Sullivan Cant](http://andrewsullivancant.ca/). Licensed [GPLv3](https://www.gnu.org/licenses/gpl.html), see [LICENSE](LICENSE) for details.
