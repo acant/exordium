@@ -229,6 +229,7 @@ This is a map of possible URLs for an exordium website, and so might change over
 * search
   - use a client side javascript search
   - http://manas.com.ar/blog/2015/10/22/middleman-search-client-side-search-in-your-middleman-site.html
+  - https://stork-search.net/, Rust and WASM based client side search
 * allow code examples to be stored in separate files and inlined into articles
   - this should make it easier to check and execute the code
   - would this then need to include a gist like system?
@@ -315,6 +316,7 @@ This is a map of possible URLs for an exordium website, and so might change over
   - http://microformats.org/wiki/project-formats
 * use a HTML5 structure with main and related structure tags
   - https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Using_HTML_sections_and_outlines
+* proposal for listing book information [library JSON](https://tomcritchlow.com/2020/04/15/library-json/)
 
 ## Wiki
 * add category support, like wikipedia
