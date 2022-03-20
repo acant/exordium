@@ -290,6 +290,9 @@ This is a map of possible URLs for an exordium website, and so might change over
 * add ccRel link formatting to everything
   - follow the W3C linking standard for it
   - document using it in indieweb stuff
+* book reading and review
+  - https://macwright.com/2022/02/24/indie-bookshelves.html
+  - https://macwright.com/2020/12/24/the-new-reading-stack.html
 
 ## HTML5/Microformats
 
