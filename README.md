@@ -293,6 +293,12 @@ This is a map of possible URLs for an exordium website, and so might change over
 * book reading and review
   - https://macwright.com/2022/02/24/indie-bookshelves.html
   - https://macwright.com/2020/12/24/the-new-reading-stack.html
+* create a useful 404 page with dynamic javascript
+  - https://ben.balter.com/2022/06/30/helpful-404s-for-jekyll-and-github-pages/
+* middleman has some tools for processing files with frontmatter
+  - this could be used for reading and writing those files
+  - `::Middleman::Util::Data.parse`
+  - https://stackoverflow.com/questions/36948807/edit-yaml-frontmatter-in-markdown-file/36984468#36984468
 
 ## HTML5/Microformats
 
